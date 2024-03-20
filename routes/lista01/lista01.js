@@ -8,7 +8,6 @@ router.get('/', (req, res) => {
 
 router.post('/ex01', (req, res) => {
 
-    console.log(req)
     let retorno = {}
     const nota1 = parseInt(req.body.nota1) || 0
     const nota2 = parseInt(req.body.nota2) || 0
